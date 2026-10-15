@@ -70,7 +70,7 @@ body {
                     flex-direction: column;
                     padding: 5px 20px;
 
-                    nav {
+                    nav.secondary {
                         display: flex;
                         justify-content: flex-end;
                         gap: 5px;
@@ -96,6 +96,8 @@ body {
                     }
 
                     main {
+                        min-height: 600px;
+
                         img {
                             &.pull-right {
                                 float: right;
