@@ -97,6 +97,11 @@ body {
                             text-transform: lowercase;
                             font-size: 9px;
                         }
+
+                        svg {
+                            width: 30px;
+                            color: var(--green);
+                        }
                     }
 
                     main {
